@@ -1,8 +1,7 @@
 {% extends 'base.html' %}
 
 {% block head %}
-    <title>Main Page</title>
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
+    <title>Prediction</title>
 
     <style>
       .my-custom-buttom{
@@ -27,30 +26,33 @@
           </a>
     
           <ul class="nav nav-pills align-items-center">
-            <li class="nav-item"><a href="#" class="nav-link my-custom-buttom" aria-current="page">About us</a></li>
+            <li class="nav-item"><a href="/" class="nav-link my-custom-buttom" aria-current="page">Back</a></li>
           </ul>
         </header>
       </div>
-  
-      <div class="container-fluid pt-5">
-        <div class="row">
-          <div class="col-6 py-5 px-5">
-            <h1 class="px-5" style="font-size: 108px;">iMedic</h1>
-            <p class="px-5 pb-2" style="font-size: 18px;">A mini medical check-up generator</p>
-            <div class="container-fluid px-5">
-              <a class="btn btn-outline-dark" href="/prediction" role="button">Start Medical Check-Up</a>
-            </div>
+
+      <div class="container-fluid">
+        <ul class="nav nav-pills nav-justified" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Update Information</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">View Report</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">Your Information</div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Your Report</div>
           </div>
-          <div class="col-6">
-            <img src="{{ url_for('static' , filename='image/undraw_medicine.svg') }}" alt="Doctor Image" style="width: 100%;height: 70%;">
-          </div>
-        </div>
+          
       </div>
+  
     </div>
 
     <nav class="fixed-bottom">
       <div class="container-fluid m-0 p-0" style="height: 30vh;">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#004fff" fill-opacity="1" d="M0,192L40,170.7C80,149,160,107,240,117.3C320,128,400,192,480,181.3C560,171,640,85,720,90.7C800,96,880,192,960,208C1040,224,1120,160,1200,117.3C1280,75,1360,53,1400,42.7L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+        
       </div>
     </nav>
   </main>
