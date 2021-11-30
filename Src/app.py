@@ -9,6 +9,10 @@ app = Flask(__name__)
 def main_page():
     return render_template('index.html')
 
+@app.route('/prediction')
+def prediction():
+    return render_template('prediction.html')
+
 @app.route("/predict", methods = ['POST', 'GET'])
 def predictPage():
     if request.method == "POST":
