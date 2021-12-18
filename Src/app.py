@@ -26,6 +26,7 @@ def predictPage():
         value7 = request.form['diabetes_pedigree_function']
         value8 = request.form['age']
 
+
         input_data = (value1,value2,value3,value4,value5,value6,value7,value8)
 
         model = pickle.load(open("../Model/diabetes.pkl",'rb'))
