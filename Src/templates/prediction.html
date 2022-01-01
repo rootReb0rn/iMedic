@@ -11,6 +11,12 @@
                     -20px -20px 60px #ffffff;
         color: #004fff;
       }
+
+      .custom-bg{
+        background-color: #004fff;
+        color: whitesmoke;
+      }
+
     </style>
     <!-- <link href="{{ url_for('static' , filename='css/cover.css') }}" rel="stylesheet"> -->
     <!-- {{ url_for('static' , filename='image/logo.png') }} -->
@@ -31,30 +37,350 @@
         </header>
       </div>
 
+
+  
+
+
       <div class="container-fluid">
-        <ul class="nav nav-pills nav-justified" id="pills-tab" role="tablist">
+        <div class="container-fluid p-2 rounded bg-light mb-3">
+          {% if report == 1 %}
+          <ul class="nav nav-pills red nav-justified" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Update Information</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">View Report</button>
+            </li>
+          </ul>
+          {% else %}
+          <ul class="nav nav-pills red nav-justified" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
               <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Update Information</button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">View Report</button>
+              <button class="nav-link disabled" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">View Report</button>
             </li>
           </ul>
+          {% endif %}
+        </div>
           <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">Your Information</div>
-            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Your Report</div>
+            {% if report == 1 %}
+              <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            {% else %}
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            {% endif %}
+            
+              <form action="/predict" method="post">
+                <!-- Diabetes -->
+                <div class="container-fluid bg-light rounded p-5 mb-3 border border-dark border-3">
+                  <h1 class="mb-2">Diabetes</h1>
+                  <hr>
+                  <div class="row g-5">
+                    
+                    <div class="col-md-6">
+                      <label for="pregnancies" class="form-label">Number of Pregnancies</label>
+                      <input type="text" class="form-control" id="pregnancies" name="pregnancies" placeholder="Ex : 0">
+                      
+                    </div>
+                    <div class="col-md-6">
+                      <label for="glucose" class="form-label">Glucose</label>
+                      <div class="input-group">
+                        <input type="text" class="form-control" id="glucose" name="glucose" placeholder="Ex : 80">
+                        <span class="input-group-text">mg/dL</span>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="blood_pressure" class="form-label">Blood Pressure</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" id="blood_pressure" name="blood_pressure" placeholder="Ex : 80">
+                          <span class="input-group-text">mmHg</span>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="skin_thickness" class="form-label">Skin Thickness</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" id="skin_thickness" name="skin_thickness" placeholder="Ex : 20">
+                          <span class="input-group-text">mm</span>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="insulin" class="form-label">Insulin Level</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" id="insulin" name="insulin" placeholder="Ex : 80">
+                          <span class="input-group-text">IU/mL</span>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="bmi" class="form-label">BMI</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" id="bmi" name="bmi" placeholder="Ex : 24.1">
+                          <span class="input-group-text">kg/m&#178;</span>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="diabetes_pedigree_function" class="form-label">Diabetes Pedigree Function</label>
+                        <input type="text" class="form-control" id="diabetes_pedigree_function" name="diabetes_pedigree_function" placeholder="Ex : 0.52">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="age" class="form-label">Age</label>
+                        <input type="text" class="form-control" id="age" name="age" placeholder="Ex : 54">
+                      </div>
+                  </div>
+                </div>
+
+                <!-- Heart -->
+                <div class="container-fluid bg-light rounded p-5 mb-3 border border-dark border-3">
+                  <h1 class="mb-2">Heart</h1>
+                  <hr>
+                  <div class="row g-5">
+                    <div class="col-md-4">
+                      <label for="age_heart" class="form-label">Age</label>
+                      <input type="text" class="form-control" id="age_heart" name="age_heart" placeholder="Ex : 55">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="sex" class="form-label">Sex</label>
+                      <select class="form-select" id=sex name="sex">
+                        <option selected> </option>
+                        <option value=1>Male</option>
+                        <option value=2>Female</option>
+                      </select>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="chest-pain-type" class="form-label">Chest Pain Type</label>
+                      <input type="text" class="form-control" id="chest-pain-type" name="chest-pain-type" placeholder="Ex : 1">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="resting-blood-pressure" class="form-label">Resting Blood Pressure</label>
+                      <div class="input-group">
+                        <input type="text" class="form-control" id="resting-blood-pressure" name="resting-blood-pressure" placeholder="Ex : 130">
+                        <span class="input-group-text">mm/Hg</span>
+                      </div>
+                  </div>
+                    <div class="col-md-4">
+                      <label for="serum-cholestoral" class="form-label">Serum Cholestoral</label>
+                      <div class="input-group">
+                        <input type="text" class="form-control" id="serum-cholestoral" name="serum-cholestoral" placeholder="Ex : 200">
+                        <span class="input-group-text">mg/dl</span>
+                      </div>
+                    </div>
+                    
+                    
+                      <div class="col-md-4">
+                        <label for="fasting-blood-sugar" class="form-label">Fasting blood Sugar</label>
+                        <div class="input-group">
+                          <select class="form-select" id="fasting-blood-sugar" name="fasting-blood-sugar">
+                            <option selected> </option>
+                            <option value=0>More than</option>
+                            <option value=1>Less than</option>
+                          </select>
+                          <span class="input-group-text">> 120 mg/dl</span>
+                        </div>                     
+                      </div>
+                      
+                      <div class="col-md-4">
+                        <label for="resting-electrocardiographic" class="form-label">Resting Electrocardiographic</label>
+                        <div class="input-group">
+                          <select class="form-select" id=resting-electrocardiographic name="resting-electrocardiographic">
+                            <option selected></option>
+                            <option value=1>1</option>
+                            <option value=2>2</option>
+                            <option value=3>3</option>
+                          </select>
+                        </div>                        
+                      </div>
+                      <div class="col-md-4">
+                        <label for="maximum-heart-rate" class="form-label">Maximum Heart Rate Achieved</label>
+                        <input type="text" class="form-control" id="maximum-heart-rate" name="maximum-heart-rate" placeholder="Ex : 180">
+                      </div>
+                      <div class="col-md-4">
+                        <label for="exercise-induced-angina" class="form-label">Exercise Induced Angina</label>
+                        <select class="form-select" id="exercise-induced-angina" name="exercise-induced-angina">
+                          <option selected></option>
+                          <option value=1>Yes</option>
+                          <option value=0>No</option>
+                        </select>
+                      </div>
+                      <div class="col-md-4">
+                        <label for="st-depression" class="form-label">ST depression induced by exercise relative to rest</label>
+                        <input type="text" class="form-control" id="st-depression" name="st-depression" placeholder="Ex : 1.8">
+                      </div>
+                      <div class="col-md-4">
+                        <label for="slope" class="form-label">The Slope of The Peak Exercise ST Segment</label>
+                        <select class="form-select" id="slope" name="slope">
+                          <option selected></option>
+                          <option value="0">0</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                        </select>
+                      </div>
+                      <div class="col-md-4">
+                        <label for="vessels-colored" class="form-label">Number of Major Vessels Colored by Flourosopy </label>
+                        <select class="form-select" id="vessels-colored" name="vessels-colored">
+                          <option selected></option>
+                          <option value="0">0</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                        </select>
+                      </div>
+                      <div class="col-md-12">
+                        <label for="thalassemia" class="form-label">Thalassemia</label>
+                        <select class="form-select" id="thalassemia" name="thalassemia">
+                          <option selected></option>
+                          <option value="1">Normal</option>
+                          <option value="2">Fixed Defect</option>
+                          <option value="3">Reversable Defect</option>
+                        </select>
+                      </div>
+                  </div>
+                </div>
+
+                <!-- Liver -->
+                <div class="container-fluid bg-light rounded p-5 mb-3 border border-dark border-3">
+                  <h1 class="mb-2">Liver</h1>
+                  <hr>
+                  <div class="row g-5">
+                    <div class="col-md-6">
+                      <label for="age-liver" class="form-label">Age</label>
+                      <input type="text" class="form-control" id="age-liver" name="age-liver" placeholder="Ex : 55">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="gender_liver" class="form-label">Gender</label>
+                      <select class="form-select" id=gender_liver name="gender_liver">
+                        <option selected> </option>
+                        <option value=1>Male</option>
+                        <option value=0>Female</option>
+                      </select>
+                    </div>
+                    
+                    <div class="col-md-6">
+                      <label for="total-bilirubin" class="form-label">Total Bilirubin</label>
+                      <div class="input-group">
+                        <input type="text" class="form-control" id="total-bilirubin" name="total-bilirubin" placeholder="Ex : 7.3">
+                        <span class="input-group-text">mg/dL</span>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="direct-bilirubin" class="form-label">Direct Bilirubin</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" id="direct-bilirubin" name="direct-bilirubin" placeholder="Ex : 0.5">
+                          <span class="input-group-text">mg/dl</span>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="alkaline-phosphotase" class="form-label">Alkaline Phosphotase</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" id="alkaline-phosphotase" name="alkaline-phosphotase" placeholder="Ex : 234">
+                          <span class="input-group-text">IU/L</span>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="alamine-aminotransferase" class="form-label">Alamine Aminotransferase</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" id="alamine-aminotransferase" name="alamine-aminotransferase" placeholder="Ex : 50">
+                          <span class="input-group-text">IU/L</span>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="aspartate-aminotransferase" class="form-label">Aspartate Aminotransferase</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" id="aspartate-aminotransferase" name="aspartate-aminotransferase" placeholder="Ex : 68">
+                          <span class="input-group-text">IU/L</span>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="total-protiens" class="form-label">Total Protiens</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" id="total-protiens" name="total-protiens" placeholder="Ex : 5.6">
+                          <span class="input-group-text">g/dL</span>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="albumin" class="form-label">Albumin</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" id="albumin" name="albumin" placeholder="Ex : 3.4">
+                          <span class="input-group-text">g/dL</span>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="albumin_and_alobulin_ratio" class="form-label">Albumin and Globulin Ratio</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" id="albumin_and_alobulin_ratio" name="albumin_and_alobulin_ratio" placeholder="Ex : 0.4">
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                
+                <div class="d-grid py-5">
+                  <button class="btn btn-primary" type="submit">Generate Now</button>
+                </div>
+              </form>
+
+
+            <!-- Ref 
+            ~ https://www.youtube.com/watch?v=DcN-AL6lXaY
+            ~ https://github.com/jayanthbabu123/how-to-convert-html-web-pages-to-pdf-in-javascript
+            -->
+            </div>
+            {% if report == 1 %}
+              <div class="tab-pane fade show active" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            {% else %}
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            {% endif %}
+            
+              <div class="container bg-white shadow-lg my-5 p-0" style="width: 800px; height:800px">
+                <div class="container-fluid p-0">
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid p-5">
+                      <a class="navbar-brand"><h1>iMedic</h1></a>
+                      <form class="d-flex">
+                        <img src="{{ url_for('static' , filename='image/logo.png') }}" alt="Logo" style="height:9vh">
+                      </form>
+                    </div>
+                  </nav>
+                </div>
+                <div class="container mt-5 px-5">
+                  <!-- <h3>Diabetes</h3> -->
+                  <h3>Diabetes
+                  {% if diabetes == 0 %}
+                      <span class="badge bg-success">Positive</span>
+                  {% else %}
+                    <span class="badge bg-danger">Negative</span>
+                  {% endif %}
+                  </h3>
+                  
+                  <hr>
+                </div>
+                <div class="container mt-5 px-5">
+                  <h3>Heart Disease
+                    {% if heart == 0 %}
+                        <span class="badge bg-success">Positive</span>
+                    {% else %}
+                      <span class="badge bg-danger">Negative</span>
+                    {% endif %}
+                    </h3>
+                  <hr>
+                </div>
+                <div class="container mt-5 px-5">
+                  <h3>Liver Disesae
+                    {% if liver == 0 %}
+                        <span class="badge bg-success">Positive</span>
+                    {% else %}
+                      <span class="badge bg-danger">Negative</span>
+                    {% endif %}
+                    </h3>
+                  <hr>
+                </div>
+              </div>
+
+            </div>
           </div>
           
-      </div>
+          
+      </div> 
   
     </div>
 
-    <nav class="fixed-bottom">
-      <div class="container-fluid m-0 p-0" style="height: 30vh;">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#004fff" fill-opacity="1" d="M0,192L40,170.7C80,149,160,107,240,117.3C320,128,400,192,480,181.3C560,171,640,85,720,90.7C800,96,880,192,960,208C1040,224,1120,160,1200,117.3C1280,75,1360,53,1400,42.7L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
-        
-      </div>
-    </nav>
   </main>
   
 {% endblock %}
