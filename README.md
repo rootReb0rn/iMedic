@@ -1,2 +1,2 @@
 Description of our project
-IMedic
+iMedic
