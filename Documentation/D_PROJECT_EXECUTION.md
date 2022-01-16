@@ -10,6 +10,12 @@
 
 ### Code
 
+#### Training
+
+For the training, the datasets used are the `diabetes`, `heart`, and `indian_liver_patient`, which can be viewed in the [Datasets](Dataset) folder
+
+#### Testing
+
 ## Project Result
 
 ---
