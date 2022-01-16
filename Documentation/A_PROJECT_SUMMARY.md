@@ -18,6 +18,6 @@ Your contents
 
 
 ---
-[◀ Back : Readme](https://github.com/rootReb0rn/iMedic)  
+[◀ Back : Readme](#)  
 
-[Next : Project Planning ▶](https://github.com/rootReb0rn/iMedic/blob/main/Documentation/A_PROJECT_SUMMARY.md)
+[Next : Project Planning ▶](A_PROJECT_SUMMARY.md)

@@ -24,14 +24,14 @@ This is a project that can analyse a patient's medical condition by producing a 
 
 # 🎯 Project Management Plan
 
-📑 [Project Summary](https://github.com/rootReb0rn/iMedic/blob/c82d0b35b06a28637e090ce67944c0855c590fef/Documentation/A_PROJECT_SUMMARY.md)
+📑 [Project Summary](Documentation/A_PROJECT_SUMMARY.md)
 
-📑 [Project Planning](https://github.com/rootReb0rn/iMedic/blob/c82d0b35b06a28637e090ce67944c0855c590fef/Documentation/B_PROJECT_PLANNING.md)
+📑 [Project Planning](Documentation/B_PROJECT_PLANNING.md)
 
-📑 [Project Implementation](https://github.com/rootReb0rn/iMedic/blob/c82d0b35b06a28637e090ce67944c0855c590fef/Documentation/C_PROJECT_IMPLEMENTATION.md)
+📑 [Project Implementation](Documentation/C_PROJECT_IMPLEMENTATION.md)
 
-📑 [Project Execution](https://github.com/rootReb0rn/iMedic/blob/c82d0b35b06a28637e090ce67944c0855c590fef/Documentation/D_PROJECT_EXECUTION.md)
+📑 [Project Execution](/Documentation/D_PROJECT_EXECUTION.md)
 
-📑 [Project Closing](https://github.com/rootReb0rn/iMedic/blob/c82d0b35b06a28637e090ce67944c0855c590fef/Documentation/E_PROJECT_CLOSING.md)
+📑 [Project Closing](Documentation/E_PROJECT_CLOSING.md)
 
 ---
