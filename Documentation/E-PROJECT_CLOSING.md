@@ -1,5 +1,5 @@
-# Project Closing
-
+# 👓 PROJECT OVERVIEW
+## E. COMPLETING THE PROJECT
 
 
 

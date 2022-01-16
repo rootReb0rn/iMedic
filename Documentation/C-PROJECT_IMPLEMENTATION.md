@@ -1,7 +1,5 @@
-# Project Implementation
-
-
-
+# 👓 PROJECT OVERVIEW
+## C. IMPLEMENTING THE PROJECT PLAN
 
 
 

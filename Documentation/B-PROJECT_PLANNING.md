@@ -1,6 +1,5 @@
-# Project Planning
-
-
+# 👓 PROJECT OVERVIEW
+## B. PLANNING THE PROJECT
 
 
 
