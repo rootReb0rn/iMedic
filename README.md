@@ -24,14 +24,14 @@ This is a project that can analyse a patient's medical condition by producing a 
 
 # 🎯 Project Management Plan
 
-📑 [Project Summary](#)
+📑 [Project Summary](Documentation\A_PROJECT_SUMMARY.md)
 
-📑 [Project Planning](#)
+📑 [Project Planning](Documentation\B_PROJECT_PLANNING.md)
 
-📑 [Project Implementation](#)
+📑 [Project Implementation](Documentation\C_PROJECT_IMPLEMENTATION.md)
 
-📑 [Project Execution](#)
+📑 [Project Execution](Documentation\D_PROJECT_EXECUTION.md)
 
-📑 [Project Closing](#)
+📑 [Project Closing](Documentation\E_PROJECT_CLOSING.md)
 
 ---
