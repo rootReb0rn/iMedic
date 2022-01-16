@@ -19,6 +19,6 @@
 
 
 ---
-[◀ Back : Project Execution](D-PROJECT_EXECUTION.md)  
+◀ Back : [Project Execution](D-PROJECT_EXECUTION.md)  
 
-[Next : Main Page ▶](../README.md)
+Next : [Main Page ▶](../README.md)
