@@ -19,6 +19,6 @@
 
 
 ---
-◀ Back : [Project Summary](A_PROJECT_SUMMARY.md)  
+◀ Back : [Project Summary](A-PROJECT_SUMMARY.md)  
 
-Next : [Project Implementation ▶](C_PROJECT_IMPLEMENTATION.md)
+Next : [Project Implementation ▶](C-PROJECT_IMPLEMENTATION.md)
