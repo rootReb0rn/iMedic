@@ -1,0 +1,109 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Main Page</title>
+<link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
+
+<style>
+    .my-custom-buttom {
+        border-radius: 50px;
+        background: #ffffff;
+        box-shadow: 20px 20px 60px #d9d9d9,
+            -20px -20px 60px #ffffff;
+        color: #004fff;
+    }
+</style>
+<!-- <link href="{{ url_for('static' , filename='css/cover.css') }}" rel="stylesheet"> -->
+<!-- {{ url_for('static' , filename='image/logo.png') }} -->
+{% endblock %}
+
+{% block body %}
+<main class="h-100">
+    <div class="container-fluid px-3">
+        <div class="container-fluid">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                    <img src="{{ url_for('static' , filename='image/logo.png') }}" alt="Logo" style="height:9vh">
+                </a>
+
+                <ul class="nav nav-pills align-items-center">
+                    <li class="nav-item"><a href="/" class="nav-link my-custom-buttom" aria-current="page">Back</a></li>
+                </ul>
+            </header>
+        </div>
+
+        <div class="container-fluid pt-2">
+            <div class="row">
+                <h3 class="m-0 pb-4">Our Teams</h3>
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;height: 30rem;">
+                            <img class="card-img-top" src="{{ url_for('static' , filename='image/Pavee.jpg') }}"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title text-center">Paveetheran A/L Thinagaran</h6>
+                                <h6 class="card-title text-center font-weight-light">B031910470</h6>
+                                <br>
+                                <p class="card-text text-center font-italic .text-secondary">Project Manager,Procurement
+                                    Manager & Project Scheduler</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;height: 30rem;">
+                            <img class="card-img-top" src="{{ url_for('static' , filename='image/Hari.jpeg') }}"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title text-center">Hariharan A/L R.Mohan</h6>
+                                <h6 class="card-title text-center font-weight-light">B031910477</h6>
+                                <br>
+                                <p class="card-text text-center font-italic .text-secondary">Risk Manager & Financial
+                                    Analyst</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;height: 30rem;">
+                            <img class="card-img-top" src="{{ url_for('static' , filename='image/Azfar.jpeg') }}"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title text-center">Azfar Rahman Bin Fazul Rahman</h6>
+                                <h6 class="card-title text-center font-weight-light">B031910467</h6>
+                                <br>
+                                <p class="card-text text-center font-italic .text-secondary">Quality Manager, Test
+                                    Manager & Project Sponsor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;height: 30rem;">
+                            <img class="card-img-top" src="{{ url_for('static' , filename='image/Charade.jpeg') }}"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title text-center"><span class="font-weight-bold">Charae A/L Eh Sin</span></h6>
+                                <h6 class="card-title text-center font-weight-light">B031820094</h6>
+                                <br>
+                                <p class="card-text text-center font-italic .text-secondary">Technical Manager & System
+                                    Engineer</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="fixed-bottom">
+        <div class="container-fluid m-0 p-0" style="height: 30vh;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#004fff" fill-opacity="1"
+                    d="M0,192L80,208C160,224,320,256,480,240C640,224,800,160,960,149.3C1120,139,1280,181,1360,202.7L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+                </path>
+            </svg>
+        </div>
+    </nav>
+</main>
+
+{% endblock %}
