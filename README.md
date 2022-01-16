@@ -16,9 +16,14 @@
 | AZFAR RAHMAN BIN FAZUL RAHMAN | B031910467 |
 | CHARAE A/L EH SIN  | B031820094 |
 
+<br>
+
+**Project Overview**
+
 This is a project that can analyse a patient's medical condition by producing a quick and mini medical check-up result. Artificial Intelligence plays a curial part in this research by employing machine learning to analyse the patients' health state. Aside from that, this project was mostly focused on heart disease, diabetes, and liver disease.
 
-# Project Management Plan
+# 🎯 Project Management Plan
+
 📑 [Project Summary](#)
 
 📑 [Project Planning](#)
@@ -28,3 +33,5 @@ This is a project that can analyse a patient's medical condition by producing a 
 📑 [Project Execution](#)
 
 📑 [Project Closing](#)
+
+---
