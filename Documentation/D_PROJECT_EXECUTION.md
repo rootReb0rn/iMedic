@@ -12,7 +12,7 @@
 
 #### Training
 
-For the training, the datasets used are the `diabetes`, `heart`, and `indian_liver_patient`, which can be viewed in the [Datasets](Dataset) folder
+For the training, the datasets used are the `diabetes`, `heart`, and `indian_liver_patient`, which can be viewed in the [Datasets](https://github.com/CharaeKeow/iMedic/tree/project-execution/Dataset) folder
 
 #### Testing
 
