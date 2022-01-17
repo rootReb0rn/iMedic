@@ -23,6 +23,7 @@ The work breakdown structure (WBS) chart has been used to display the structure 
 
 ## Responsibility Assignment Matrices (RAM)
 ![ram-1](https://user-images.githubusercontent.com/91862969/149724441-3883c7eb-882f-4f32-95d6-5ef1785a32bf.JPG)
+
 ![ram-2](https://user-images.githubusercontent.com/91862969/149724465-ccecd5f1-3ad4-436c-84ec-784f8826f052.JPG)
 
 ## Team Members, Roles and Responsibilities
