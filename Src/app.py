@@ -10,10 +10,16 @@ app = Flask(__name__)
 def main_page():
     return render_template('index.html')
 
+@app.route('/aboutus')
+def aboutus():
+    return render_template('aboutus.html')
+
 
 @app.route('/prediction')
 def prediction():
-    return render_template('prediction.html', report=0)
+    return render_template('prediction.html', report=0,obtain_diabetes = [],
+                               obtain_heart= [],
+                               obtain_liver= [])
 
 
 @app.route("/predict", methods=['POST', 'GET'])
@@ -23,6 +29,7 @@ def predictPage():
         diabetes_list = []
         heart_list = []
         liver_list = []
+        mytable_list = []
 
         # Diabetes
         valueD1 = request.form['pregnancies']
@@ -102,8 +109,8 @@ def predictPage():
         # liver_prediction = (valueL1,valueL2,valueL3,valueL4,valueL5,valueL6,valueL7,valueL8,valueL9,valueL10)
 
         diabetes_model = pickle.load(open("../Model/diabetes.pkl", 'rb'))
-        heart_model = pickle.load(open("../Model/heart_test.pkl", 'rb'))
-        liver_model = pickle.load(open("../Model/liver_test.pkl", 'rb'))
+        heart_model = pickle.load(open("../Model/heart.pkl", 'rb'))
+        liver_model = pickle.load(open("../Model/liver.pkl", 'rb'))
 
         get_diabetes = np.asarray(diabetes_list)
         get_heart = np.asarray(heart_list)
@@ -133,4 +140,8 @@ def predictPage():
                                report=1,
                                diabetes=diabetes_prediction,
                                heart=heart_prediction,
-                               liver=liver_prediction)
+                               liver=liver_prediction,
+                               obtain_diabetes = diabetes_list,
+                               obtain_heart=heart_list,
+                               obtain_liver=liver_list)
+

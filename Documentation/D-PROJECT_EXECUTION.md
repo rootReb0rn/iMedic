@@ -82,6 +82,6 @@ Displaying the result of the model - i.e., negative or positive. The [Project Re
 
 
 ---
-◀ Back : [Project Implementation](C-PROJECT_IMPLEMENTATION.md)  
+◀ Back : [Project Implementation](C-PROJECT_IMPLEMENTATION.md)
 
 Next : [Project Closing ▶](E-PROJECT_CLOSING.md)
