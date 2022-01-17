@@ -63,6 +63,22 @@ The full code can be viewed in [app.py](https://github.com/rootReb0rn/iMedic/blo
 
 ## Project Result
 
+### Homepage
+Homepage and the About Us section of the web app
+
+![Homepage of the web application](https://github.com/CharaeKeow/iMedic/blob/main/Documentation/Assets/Execution/Homepage.png)
+
+![About Us section of the web application](https://github.com/CharaeKeow/iMedic/blob/main/Documentation/Assets/Execution/AboutUsPage.png)
+
+### Form
+For entering patient's details as input data for the model
+
+![Form](https://github.com/CharaeKeow/iMedic/blob/main/Documentation/Assets/Execution/FormPage.png)
+
+### Result Page
+Displaying the result of the model - i.e., negative or positive. The [Project Result.pdf](https://github.com/CharaeKeow/iMedic/blob/main/Documentation/Assets/Execution/Project%20Result.pdf) shows the result output from the website.
+
+![Result Page](https://github.com/CharaeKeow/iMedic/blob/main/Documentation/Assets/Execution/ResultPage.png)
 
 
 ---
