@@ -39,7 +39,7 @@ CHAP TECHNOLOGIES Sdn.Bhd was able to meet the goals set out at the start of the
 
 5.3 IMPACTS
 
-This can help to have mini medical check-up and by having this we can prevent any serious illness to he patient and make appropriate treatment. this will also prevent or reduce cost in medical and being to sufficient to the patient 
+This can help to have mini medical check-up and by having this we can prevent any serious illness to he patient and make appropriate treatment. this will also prevent or reduce cost in medical and being  sufficient to the patient.
 
 6.0 TRANSITION PLAN
 
