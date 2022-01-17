@@ -15,7 +15,7 @@ For the training, the datasets used are the `diabetes.csv`, `heart.csv`, and `in
 Here is the code snippet for the training part.
 
 **1. Diabetes model training**
-- Training data: [`diabetes.csv`](https://github.com/rootReb0rn/iMedic/blob/main/Dataset/diabetes.csv)
+- Training data: [`diabetes.csv`](../Dataset/diabetes.csv)
 - Algorithm: Linear Discriminant Analysis
 - Accuracy: 90%
 
@@ -59,7 +59,7 @@ model.fit(X_train, y_train)
 ```
 
 **2. Heart Disease Model Training**
-- Training data: [`heart.csv`](https://github.com/rootReb0rn/iMedic/blob/main/Dataset/heart.csv)
+- Training data: [`heart.csv`](../Dataset/heart.csv)
 - Algorithm: Random Forest Classifier
 - Accuracy: 81.32 %
 
@@ -124,7 +124,7 @@ pred = model.predict(X_test)
 ```
 
 **3. Liver Model Training**
-- Training data: [`indian_liver_patient.csv`](https://github.com/rootReb0rn/iMedic/blob/main/Dataset/indian_liver_patient.csv)
+- Training data: [`indian_liver_patient.csv`](../Dataset/indian_liver_patient.csv)
 - Algorithm: Random Forest Classifier
 - Accuracy: 76.27%
 
