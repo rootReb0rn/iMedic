@@ -57,7 +57,7 @@ data['Dataset'].unique()
 x = data.drop('Dataset', axis =1)
 y = data['Dataset']
 
- ####################End of snippet########################
+        ####################End of snippet########################
 
 ```
 
@@ -177,7 +177,7 @@ from sklearn.ensemble import RandomForestClassifier
 model = RandomForestClassifier(n_estimators=20)
 model.fit(X_train, y_train)
 
-####################End of snippet########################
+        ####################End of snippet########################
 ```
 
 #### Web application
