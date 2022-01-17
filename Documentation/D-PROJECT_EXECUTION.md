@@ -65,7 +65,7 @@ y = data['Dataset']
 **2. Heart Disease Model Training**
 - Training data: [`heart.csv`](https://github.com/rootReb0rn/iMedic/blob/main/Dataset/heart.csv)
 - Algorithm: Random Forest Classifier
-- Accuracy: 83.52%
+- Accuracy: 81.32 %
 
 ```Python
 import numpy as np
@@ -130,7 +130,7 @@ pred = model.predict(X_test)
 **3. Liver Model Training**
 - Training data: [`indian_liver_patient.csv`](https://github.com/rootReb0rn/iMedic/blob/main/Dataset/indian_liver_patient.csv)
 - Algorithm: Random Forest Classifier
-- Accuracy: 81.36%
+- Accuracy: 76.27%
 
 ```Python
 import numpy as np
