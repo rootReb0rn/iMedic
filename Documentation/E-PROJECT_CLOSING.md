@@ -35,7 +35,7 @@ The project scope was initiated from the beginning of the project. For instance,
 
 5.2 OBJECTIVES
 
-CHAP TECHNOLOGIES Sdn.Bhd was able to meet the goals set out at the start of the project. A Machine Learning system driven by artificial intelligence has been created. Machine Learning is used in this research to determine the patient health as well as help the doctor's . Furthermore, flask is utilised to integrate the python application used to recognise health presciption into an HTML website. Our goal of creating an health website in the system was to enhance the effeciency to treat patient.
+CHAP TECHNOLOGIES Sdn.Bhd was able to meet the goals set out at the start of the project. A Machine Learning system driven by artificial intelligence has been created. Machine Learning is used in this research to determine the patient health as well as help the doctor's . Furthermore, flask framework is utilised to integrate the python application used to provide health presciption into an website in short period time. Our goal of creating an health website in the system was to enhance the effeciency to treat patient.
 
 5.3 IMPACTS
 
