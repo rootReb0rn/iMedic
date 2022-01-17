@@ -3,9 +3,9 @@
 ![whole file in pdf](https://github.com/rootReb0rn/iMedic/blob/cdaf59ae51a1b5abf19cde2bb1c97d9bbfce2d96/Documentation/closing.pdf)
 
 ## Customer Acceptance Form
-![image](https://github.com/rootReb0rn/iMedic/blob/ec50bdc8158c66b015e75c27bdb200abcd5d20c3/Documentation/11.PNG)
+![image](../Documentation/Assets/Overview_and_Summary/11.PNG)
 ## Lessons-Learned Form
-![image](https://github.com/rootReb0rn/iMedic/blob/ec50bdc8158c66b015e75c27bdb200abcd5d20c3/Documentation/2222.PNG)
+![image](../Documentation/Assets/Overview_and_Summary/2222.PNG)
 
 ## Final Project Report
 4.0 Original and Actual Budget
