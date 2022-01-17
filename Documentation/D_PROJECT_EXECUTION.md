@@ -4,7 +4,7 @@
 
 ### Flowchart
 
-![Flowchart of the project](https://github.com/CharaeKeow/iMedic/blob/main/Documentation/Assets/Execution/Flowchart.png)
+![Flowchart of the project](Assets/Execution/Flowchart.png)
 
 ### Design
 
@@ -12,7 +12,7 @@
 
 #### Training
 
-For the training, the datasets used are the `diabetes.csv`, `heart.csv`, and `indian_liver_patient.csv`, which can be viewed in the [Dataset](https://github.com/rootReb0rn/iMedic/tree/main/Dataset) folder. The training code, which are written in Jupyter Notebook, are located in the [Train](https://github.com/rootReb0rn/iMedic/tree/main/Train) folder. The model `.pkl` file are located in [Model](https://github.com/rootReb0rn/iMedic/tree/main/Train) folder.
+For the training, the datasets used are the `diabetes.csv`, `heart.csv`, and `indian_liver_patient.csv`, which can be viewed in the [Dataset](../Dataset) folder. The training code, which are written in Jupyter Notebook, are located in the [Train](../Train) folder. The model `.pkl` file are located in [Model](../Model) folder.
 
 #### Web application
 
@@ -59,26 +59,26 @@ def predictPage():
         ####################End of snippet########################
 ```
 
-The full code can be viewed in [app.py](https://github.com/rootReb0rn/iMedic/blob/main/Src/app.py) file in the [Src](https://github.com/rootReb0rn/iMedic/tree/main/Src) folder.
+The full code can be viewed in [app.py](../Src/app.py) file in the [Src](../Src) folder.
 
 ## Project Result
 
 ### Homepage
 Homepage and the About Us section of the web app
 
-![Homepage of the web application](https://github.com/CharaeKeow/iMedic/blob/main/Documentation/Assets/Execution/Homepage.png)
+![Homepage of the web application](Assets/Execution/Homepage.png)
 
-![About Us section of the web application](https://github.com/CharaeKeow/iMedic/blob/main/Documentation/Assets/Execution/AboutUsPage.png)
+![About Us section of the web application](Assets/Execution/AboutUsPage.png)
 
 ### Form
 For entering patient's details as input data for the model
 
-![Form](https://github.com/CharaeKeow/iMedic/blob/main/Documentation/Assets/Execution/FormPage.png)
+![Form](Assets/Execution/FormPage.png)
 
 ### Result Page
-Displaying the result of the model - i.e., negative or positive. The [Project Result.pdf](https://github.com/CharaeKeow/iMedic/blob/main/Documentation/Assets/Execution/Project%20Result.pdf) shows the result output from the website.
+Displaying the result of the model - i.e., negative or positive. The [Project Result.pdf](Assets/Execution/Project%20Result.pdf) shows the result output from the website.
 
-![Result Page](https://github.com/CharaeKeow/iMedic/blob/main/Documentation/Assets/Execution/ResultPage.png)
+![Result Page](Assets/Execution/ResultPage.png)
 
 
 ---
