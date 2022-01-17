@@ -17,11 +17,12 @@
 
 
 
-  4.2 NPV value:
+4.2 NPV value:
   
   ![image](https://github.com/rootReb0rn/iMedic/blob/f89e5cae36084cd94e6dd8864dc7077ca75f02ff/Documentation/6666.PNG)
   
-   4.2 Cost Breakdown:
+4.2 Cost Breakdown:
+
    ![image](https://github.com/rootReb0rn/iMedic/blob/ee0050a0b3411e030e69dc00dc82850674a6e603/Documentation/77777777.PNG)
    
   
