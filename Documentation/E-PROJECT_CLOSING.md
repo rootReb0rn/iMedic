@@ -17,6 +17,8 @@
 
   4.2 NPV value:
   
+  ![image](https://github.com/rootReb0rn/iMedic/blob/f89e5cae36084cd94e6dd8864dc7077ca75f02ff/Documentation/6666.PNG)
+  
 5.0 PROJECT ASSESSMENT
 
 5.1 SCOPE
