@@ -1,4 +1,4 @@
-# 👓 PROJECT OVERVIEW
+# 👓 PROJECT OVERVIEW 
 ## E. COMPLETING THE PROJECT
 ![CLOSING FILE.pdf](https://github.com/rootReb0rn/iMedic/blob/c11b8a183e3cbb79b72a63d334589fb52628036e/Documentation/PDF%20Report/closing.pdf)
 
