@@ -1,6 +1,6 @@
 # 👓 PROJECT OVERVIEW
 ## E. COMPLETING THE PROJECT
-![whole file in pdf](https://github.com/rootReb0rn/iMedic/blob/cdaf59ae51a1b5abf19cde2bb1c97d9bbfce2d96/Documentation/closing.pdf)
+![CLOSING FILE.pdf](https://github.com/rootReb0rn/iMedic/blob/c11b8a183e3cbb79b72a63d334589fb52628036e/Documentation/PDF%20Report/closing.pdf)
 
 ## Customer Acceptance Form
 ![image](../Documentation/Assets/Overview_and_Summary/11.PNG)
@@ -12,18 +12,18 @@
 
 4.1 Cost Estimation:
 
-![image](https://github.com/rootReb0rn/iMedic/blob/65c6b3d9d9a9b481fd14d210ccb815d63a1f1ff4/Documentation/4444444.PNG)
-![image](https://github.com/rootReb0rn/iMedic/blob/aa52a1876f8cdec1135636977f10b519662b0f12/Documentation/55555.PNG)
+![image](../Documentation/Assets/Overview_and_Summary/4444444.PNG)
+![image](../Documentation/Assets/Overview_and_Summary/55555.PNG)
 
 
 
 4.2 NPV value:
   
-  ![image](https://github.com/rootReb0rn/iMedic/blob/f89e5cae36084cd94e6dd8864dc7077ca75f02ff/Documentation/6666.PNG)
+  ![image](../Documentation/Assets/Overview_and_Summary/66666.PNG)
   
 4.2 Cost Breakdown:
 
-   ![image](https://github.com/rootReb0rn/iMedic/blob/ee0050a0b3411e030e69dc00dc82850674a6e603/Documentation/77777777.PNG)
+   ![image](../Documentation/Assets/Overview_and_Summary/77777777.PNG)
    
   
 5.0 PROJECT ASSESSMENT
@@ -55,7 +55,7 @@ iv) Report information to senior management on monthly basis.
 
 
 ## Close Contract
-![image](https://github.com/rootReb0rn/iMedic/blob/ec50bdc8158c66b015e75c27bdb200abcd5d20c3/Documentation/3333.PNG)
+![image](../Documentation/Assets/Overview_and_Summary/3333.PNG)
 
 
 
