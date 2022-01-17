@@ -1,6 +1,6 @@
-# Project Execution
+# 👓 PROJECT OVERVIEW
 
-## Project Design and Code
+## D. EXECUTING THE PROJECT
 
 ### Flowchart
 
@@ -82,6 +82,6 @@ Displaying the result of the model - i.e., negative or positive. The [Project Re
 
 
 ---
-[◀ Back : Project Implementation](A_PROJECT_IMPLEMENTATION.md)
+◀ Back : [Project Implementation](C-PROJECT_IMPLEMENTATION.md)  
 
-[Next : Project Closing ▶](C_PROJECT_CLOSING.md)
+Next : [Project Closing ▶](E-PROJECT_CLOSING.md)
