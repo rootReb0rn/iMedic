@@ -22,6 +22,8 @@
 5.1 SCOPE
 
 The project scope was initiated from the beginning of the project. For instance, the system is not able to help doctor's to make a faster process in examining patient
+
+
 5.2 OBJECTIVES
 
 CHAP TECHNOLOGIES Sdn.Bhd was able to meet the goals set out at the start of the project. A Machine Learning system driven by artificial intelligence has been created. ML is used in this research to determine the patient health as well as help the doctor's . Furthermore, bootstrap is utilised to integrate the python application used to recognise licence plates into an HTML website. Our goal of creating an health website in the system was to enhance the effeciency to treat patient.
