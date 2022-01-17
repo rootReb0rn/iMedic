@@ -39,7 +39,7 @@ CHAP TECHNOLOGIES Sdn.Bhd was able to meet the goals set out at the start of the
 
 5.3 IMPACTS
 
-By using this technique, the amount of time spent queuing in front of clinic before consulting the doctors a lot has been minimised. This can help to prevent traffic congestion caused by the long line in the clinic. The procedure of costs will also become more convenient, as patient they will no more waiting process in he medical center.
+By using this technique, the amount of time spent queuing in front of clinic before consulting the doctors a lot has been minimised. This can help to have mini medical check-up and by having this we can prevent any serious illness to he patient and make appropriate treatment.
 
 6.0 TRANSITION PLAN
 
