@@ -6,8 +6,6 @@
 
 ![Flowchart of the project](Assets/Execution/Flowchart.png)
 
-### Design
-
 ### Code
 
 #### Training
@@ -16,52 +14,54 @@ For the training, the datasets used are the `diabetes.csv`, `heart.csv`, and `in
 
 Here is the code snippet for the training part.
 
-1. Diabetes dataset
+**1. Diabetes model training**
+- Training data: [`diabetes.csv`](https://github.com/rootReb0rn/iMedic/blob/main/Dataset/diabetes.csv)
+- Algorithm: Linear Discriminant Analysis
+- Accuracy: 90%
 
 ```Python
 
-import pandas as od
+import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 %matplotlib inline
 
-dataset_path = '../Dataset/diabetes.csv'
-data = pd.read_csv(dataset_path)
+data = pd.read_csv('../Dataset/diabetes.csv')
 data.head()
 
-X = data.drop('Dataset',axis=1)
-Y = data['Dataset']
-
-print("Total number of sample :",data.shape[0],"\nNO. of features in each sample :", data.shape[1])
-
-duplicates = data[data.duplicated(keep=False)]
-
-print("No. of duplicate Values :", duplicates.shape[0],"\nSize of data",data.shape)
-
-data = data[~data.duplicated(subset=None, keep='first')]
-duplicates =data[data.duplicated(keep=False)]
-
-print("No. of duplicate values: e\nsize of data: ",data.shape)
-
 data.isnull().sum()
-data = data.dropna()
-data.isnull().sum()
+data.corr()
 
-from sklearn.preprocessing import LabelEncoder
+import seaborn as sns
 
-le = LabelEncoder()
-#dataset =1 , dataset = 2
-data['Dataset'] = le.fit_transform(~data['Dataset'])
-data['Dataset'].unique()
+plt.figure(figsize=(10,10))
+sns.heatmap(data.corr(), annot = True)
 
-x = data.drop('Dataset', axis =1)
-y = data['Dataset']
+X = data.iloc[:,:-1]
+y = data['Outcome']
+
+X.shape
+y.shape
+
+from sklearn.model_selection import train_test_split
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 1/11, random_state = 242)
+
+print("Train Set: ", X_train.shape, y_train.shape)
+print("Test Set: ", X_test.shape, y_test.shape)
+
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+model = LinearDiscriminantAnalysis()
+model.fit(X_train, y_train)
 
         ####################End of snippet########################
 
 ```
 
-2. Heart disease dataset
+**2. Heart Disease Model Training**
+- Training data: [`heart.csv`](https://github.com/rootReb0rn/iMedic/blob/main/Dataset/heart.csv)
+- Algorithm: Random Forest Classifier
+- Accuracy: 81.32 %
 
 ```Python
 import numpy as np
@@ -123,7 +123,10 @@ pred = model.predict(X_test)
         ####################End of snippet########################
 ```
 
-3. Liver dataset
+**3. Liver Model Training**
+- Training data: [`indian_liver_patient.csv`](https://github.com/rootReb0rn/iMedic/blob/main/Dataset/indian_liver_patient.csv)
+- Algorithm: Random Forest Classifier
+- Accuracy: 76.27%
 
 ```Python
 import numpy as np
@@ -182,7 +185,7 @@ model.fit(X_train, y_train)
 
 #### Web application
 
-**1.Dependencies**
+**1. Dependencies**
 
 For the web application, Flask is used to as the web framework. The dependencies are:
 
