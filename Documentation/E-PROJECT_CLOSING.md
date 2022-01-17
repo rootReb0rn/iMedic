@@ -30,7 +30,7 @@
 
 5.1 SCOPE
 
-The project scope was initiated from the beginning of the project. For instance, the system is able to help doctor's to make a faster process in examining patient
+The project scope was initiated from the beginning of the project. For instance, the system is able to help doctor's to make a faster process in examining patient.
 
 
 5.2 OBJECTIVES
