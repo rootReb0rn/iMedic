@@ -6,8 +6,6 @@
 
 ![Flowchart of the project](Assets/Execution/Flowchart.png)
 
-### Design
-
 ### Code
 
 #### Training
@@ -16,7 +14,10 @@ For the training, the datasets used are the `diabetes.csv`, `heart.csv`, and `in
 
 Here is the code snippet for the training part.
 
-1. Diabetes dataset
+**1. Diabetes model training**
+- Training data: [`diabetes.csv`](https://github.com/rootReb0rn/iMedic/blob/main/Dataset/diabetes.csv)
+- Algorithm: Linear Discriminant Analysis
+- Accuracy: 90%
 
 ```Python
 
@@ -61,7 +62,10 @@ y = data['Dataset']
 
 ```
 
-2. Heart disease dataset
+**2. Heart Disease Model Training**
+- Training data: [`heart.csv`](https://github.com/rootReb0rn/iMedic/blob/main/Dataset/heart.csv)
+- Algorithm: Random Forest Classifier
+- Accuracy: 83.52%
 
 ```Python
 import numpy as np
@@ -123,7 +127,10 @@ pred = model.predict(X_test)
         ####################End of snippet########################
 ```
 
-3. Liver dataset
+**3. Liver Model Training**
+- Training data: [`indian_liver_patient.csv`](https://github.com/rootReb0rn/iMedic/blob/main/Dataset/indian_liver_patient.csv)
+- Algorithm: Random Forest Classifier
+- Accuracy: 81.36%
 
 ```Python
 import numpy as np
@@ -182,7 +189,7 @@ model.fit(X_train, y_train)
 
 #### Web application
 
-**1.Dependencies**
+**1. Dependencies**
 
 For the web application, Flask is used to as the web framework. The dependencies are:
 
