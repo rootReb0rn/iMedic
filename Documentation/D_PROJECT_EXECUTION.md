@@ -4,7 +4,7 @@
 
 ### Flowchart
 
-![Flowchart of the project](https://github.com/CharaeKeow/iMedic/blob/project-execution/Documentation/Assets/Execution/Flowchart.png)
+![Flowchart of the project](https://github.com/CharaeKeow/iMedic/blob/main/Documentation/Assets/Execution/Flowchart.png)
 
 ### Design
 
