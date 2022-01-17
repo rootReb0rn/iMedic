@@ -2,9 +2,9 @@
 ## E. COMPLETING THE PROJECT
 
 ## Customer Acceptance Form
-![image](https://github.com/rootReb0rn/iMedic/blob/d61f462ae683ef4735c65acc79129f262dab6612/Documentation/11.PNG)
+![image](https://github.com/rootReb0rn/iMedic/blob/ec50bdc8158c66b015e75c27bdb200abcd5d20c3/Documentation/11.PNG)
 ## Lessons-Learned Form
-![image](https://github.com/rootReb0rn/iMedic/blob/655ba47d8ff9adb2a383450ccf8b140cf5f6ecf3/Documentation/2222.PNG)
+![image](https://github.com/rootReb0rn/iMedic/blob/ec50bdc8158c66b015e75c27bdb200abcd5d20c3/Documentation/2222.PNG)
 
 ## Final Project Report
 4.0 Original and Actual Budget
@@ -17,11 +17,34 @@
 
   4.2 NPV value:
   
+5.0 PROJECT ASSESSMENT
 
+5.1 SCOPE
+
+The project scope was initiated from the beginning of the project. For instance, the system is not able to help doctor's to make a faster process in examining patient
+5.2 OBJECTIVES
+
+CHAP TECHNOLOGIES Sdn.Bhd was able to meet the goals set out at the start of the project. A Machine Learning system driven by artificial intelligence has been created. ML is used in this research to determine the patient health as well as help the doctor's . Furthermore, bootstrap is utilised to integrate the python application used to recognise licence plates into an HTML website. Our goal of creating an health website in the system was to enhance the effeciency to treat patient.
+
+5.3 IMPACTS
+
+By using this technique, the amount of time spent queuing in front of clinic before consulting the doctors a lot has been minimised. This can help to prevent traffic congestion caused by the long line in the clinic. The procedure of costs will also become more convenient, as patient they will no more waiting process in he medical center.
+
+6.0 TRANSITION PLAN
+
+CHAP TECHNOLOGIES Sdn.Bhd staff will provide support when require. The main work of support provided by CHAP TECHNOLOGIES Sdn.Bhd staff on the :   iMedic : A Smart Mini Medical Check-Up Generator project are as shown below:
+
+i) Maintain the system
+
+ii) Handling errors and updates of the system
+
+iii) Provide user guidelines for doctor's and staff to use the system
+
+iv) Report information to senior management on monthly basis.
 
 
 ## Close Contract
-![image](https://github.com/rootReb0rn/iMedic/blob/b70ffb39e49fb1dc7fe0ccf48e31b75c6999e1f9/Documentation/3333.PNG)
+![image](https://github.com/rootReb0rn/iMedic/blob/ec50bdc8158c66b015e75c27bdb200abcd5d20c3/Documentation/3333.PNG)
 
 
 
