@@ -28,7 +28,7 @@ The work breakdown structure (WBS) chart has been used to display the structure 
 
 ## Team Members, Roles and Responsibilities
 
-![pavee_small](https://user-images.githubusercontent.com/91862969/149725488-8345ce3d-5967-48dc-882d-e5babc0fdb64.jpg)
+<img src="Assets/Implementation/Pavee.jpg" alt="drawing" width="250"/>
 
 ### PAVEETHERAN A/L THINAGARAN
 | Roles | Responsibilities |
@@ -38,7 +38,7 @@ The work breakdown structure (WBS) chart has been used to display the structure 
 | Project Scheduler | Project schedules are created, updated, and coordinated by the Project Scheduler. Produces a resource utilisation model and forecasts. Builds, evaluates, and optimises project schedules in collaboration with the team. The Project Scheduler will work as part of a cross-functional team to design and oversee project schedules for development and construction. You will work with a team of specialists to provide great service as a highly driven individual with excellent organisation, technical, and communication abilities. They're creating, deploying, and maintaining an efficient schedule management system, as well as coordinating project timeframes with internal and external stakeholders. |
 
 
-![hari_small](https://user-images.githubusercontent.com/91862969/149725641-3bec17eb-c764-4cca-ac85-857036151a8c.jpg)
+<img src="Assets/Implementation/Hari.jpeg" alt="drawing" width="250"/>
 
 ### HARIHARAN A/L R.MOHAN
 | Roles | Responsibilities |
@@ -48,7 +48,7 @@ The work breakdown structure (WBS) chart has been used to display the structure 
 | Project Sponsor | The project sponsor oversees project funding, approves ideas and revisions, participates in important decision-making, manages engagement and communication procedures, assists in the formulation of the initial scope and project charter, and manages stakeholder relationships. They negotiate project funds, serve as a spokesperson for senior management, and give project empowerment, important business strategies, and project objectives with direction and leadership. They use communication techniques and project management planning methodologies to involve stakeholders in the project and sustain their continuing commitment to it, and they evaluate the project's success when it is completed. |
 
 
-![Azfar_SMALLL](https://user-images.githubusercontent.com/91862969/149974444-a76e3e82-2539-4df3-827f-da24f21dd417.jpeg)
+<img src="Assets/Implementation/Azfar.jpeg" alt="drawing" width="250"/>
 
 ### AZFAR RAHMAN BIN FAZUL RAHMAN
 | Roles | Responsibilities |
@@ -56,7 +56,7 @@ The work breakdown structure (WBS) chart has been used to display the structure 
 | Risk Manager | As a risk manager, you'll be in charge of reducing the risk to an organization's employees, customers, reputation, assets, and stakeholders' interests. They'll identify and assess threats to an organisation, devise contingency plans in the event that something goes wrong, and determine ways to minimise, reduce, or transfer risk. Risk managers will assess risk by comparing predicted hazards to criteria set by the organisation, such as costs, legal requirements, and environmental variables, as well as assessing previous risk management. They also conduct risk assessments, which entails analysing hazards as well as identifying, defining, and assessing the business's or organization's risks. |
 | Financial Analyst | Financial analysts are in charge of a company's or corporation's financial planning, analysis, and projections. They anticipate future income and expenditures in order to develop cost structures and project capital budgets. Senior financial analysts collaborate with other members of the management team to determine the company's overall investment strategy and policies. They examine current and historical financial data and performance, as well as prepare reports and projections based on their findings. Aside from that, they're assessing current capital expenditures and depreciation, as well as looking into investment options. They can also create and evaluate profit plans, as well as spot trends in financial performance and make recommendations for improvement. |
 
-![charae_small](https://user-images.githubusercontent.com/91862969/149725710-a9b86e5f-8d74-4bf4-bc3c-632fbc9a680b.jpg)
+<img src="Assets/Implementation/Charade.jpeg" alt="drawing" width="250"/>
 
 ### CHARAE A/L EH SIN
 | Roles | Responsibilities |
