@@ -2,7 +2,7 @@
 ## B. PLANNING THE PROJECT
 ## PROJECT MANAGEMENT LIFE CYCLE 
 
-The Gantt Chart has been used to implement the project management life cycle, which is particularly beneficial for planning and scheduling work. Every team member has been allocated tasks in a Gantt Chart at each stage of the lifecycle to help us estimate how long each activity should take, calculate the resources required, and organise the sequence in which the activities should be completed.
+The Gantt Chart has been used to implement the project management life cycle, which is particularly beneficial for planning and scheduling work. Every team member has been allocated tasks in a Gantt Chart at each stage of the lifecycle to help us estimate how long each activity should take, calculate the resources required, and organise the sequence in which the activities should completed.
 
 The Gantt chart is as follows:
 
