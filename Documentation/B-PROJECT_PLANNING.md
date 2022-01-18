@@ -48,7 +48,7 @@ The work breakdown structure (WBS) chart has been used to display the structure 
 | Project Sponsor | The project sponsor oversees project funding, approves ideas and revisions, participates in important decision-making, manages engagement and communication procedures, assists in the formulation of the initial scope and project charter, and manages stakeholder relationships. They negotiate project funds, serve as a spokesperson for senior management, and give project empowerment, important business strategies, and project objectives with direction and leadership. They use communication techniques and project management planning methodologies to involve stakeholders in the project and sustain their continuing commitment to it, and they evaluate the project's success when it is completed. |
 
 
-![Azfar_SMALL](https://user-images.githubusercontent.com/91862969/149974099-25cdc82e-5c8f-4f96-a999-45a60841c707.jpeg)
+![Azfar_SMALLL](https://user-images.githubusercontent.com/91862969/149974444-a76e3e82-2539-4df3-827f-da24f21dd417.jpeg)
 
 ### AZFAR RAHMAN BIN FAZUL RAHMAN
 | Roles | Responsibilities |
