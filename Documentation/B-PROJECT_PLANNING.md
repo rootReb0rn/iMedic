@@ -47,7 +47,8 @@ The work breakdown structure (WBS) chart has been used to display the structure 
 | Test Manager | The software test manager's job is to head the testing group. The Test Manager is an important member of the Team. The project's success is entirely in the hands of the Test Manager. The job entails advocating for quality and testing, resource planning and management, and resolving challenges that obstruct the testing process. They're in charge of determining the scope of testing for each release or delivery, as well as deploying or maintaining testing resources. Aside from that, they're using the right test metrics and measurements in the system products and the testing team. |
 | Project Sponsor | The project sponsor oversees project funding, approves ideas and revisions, participates in important decision-making, manages engagement and communication procedures, assists in the formulation of the initial scope and project charter, and manages stakeholder relationships. They negotiate project funds, serve as a spokesperson for senior management, and give project empowerment, important business strategies, and project objectives with direction and leadership. They use communication techniques and project management planning methodologies to involve stakeholders in the project and sustain their continuing commitment to it, and they evaluate the project's success when it is completed. |
 
-![azfar_small](https://user-images.githubusercontent.com/91862969/149725679-e2a0dece-38e0-4b14-89d5-51bd1065aab2.jpg)
+
+![Azfar_SMALL](https://user-images.githubusercontent.com/91862969/149974099-25cdc82e-5c8f-4f96-a999-45a60841c707.jpeg)
 
 ### AZFAR RAHMAN BIN FAZUL RAHMAN
 | Roles | Responsibilities |
