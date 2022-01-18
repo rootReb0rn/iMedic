@@ -32,7 +32,7 @@ The Milestone Chart focuses on major events that are expected to happen at speci
 ![tm1](https://user-images.githubusercontent.com/91862969/149972121-c822f31f-8c78-47f9-b0f8-c8f3cab05c82.JPG)
 ![tm2](https://user-images.githubusercontent.com/91862969/149972139-e96cef09-c4be-43fc-9a3f-a729d0237393.JPG)
 
-
+![TM](https://github.com/rootReb0rn/iMedic/blob/main/Documentation/Assets/Implementation/Azfar.jpeg)
 
 ---
 ◀ Back : [Project Planning](B-PROJECT_PLANNING.md)  
