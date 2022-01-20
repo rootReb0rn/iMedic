@@ -34,4 +34,6 @@ This is a project that can analyse a patient's medical condition by producing a 
 
 📑 [Project Closing](Documentation/E-PROJECT_CLOSING.md)
 
+📑 [Video Presentation](https://youtu.be/tnX1fZf8nAo)
+
 ---
